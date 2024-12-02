@@ -1,65 +1,79 @@
-url: https://jh214.github.io
-baseurl: /agency-jekyll-theme/
+# Site URL 설정
+url: https://jh214.github.io # 자신의 GitHub Pages 주소로 변경하세요.
+# baseurl: /agency-jekyll-theme/ # 루트 디렉토리에서 제공될 경우 빈 값으로 설정
+baseurl: ""
 
-# Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+# 사이트 기본 정보
+title: Awesome Title # 사이트 제목
+email: your-email@domain.com # 사이트 이메일 주소
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." # 사이트 설명
 
-
-# Team names, titles and social links
+# 팀 정보
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  - name: Kay Garland
+    pic: 1 # 사진 파일 이름 또는 ID
+    position: Lead Designer # 직책
+    social:
+      - title: twitter # 소셜 네트워크 이름
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Larry Parker
+    pic: 2
+    position: Lead Marketer
+    social:
+      - title: twitter
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
+      - title: linkedin
+        url: # URL 주소 (입력 필요)
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: twitter
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
+      - title: google-plus
+        url: # URL 주소 (입력 필요)
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# 소셜 네트워크 링크
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/yourusername # 자신의 트위터 URL
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/yourusername # 자신의 GitHub URL
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll # Stack Overflow
+  - title: facebook
+    url: http://facebook.com/yourusername # 자신의 Facebook URL (필요하면 입력)
 
-# Postal address (add as many lines as necessary)
+# 주소 정보
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 3481 Melrose Place # 첫 번째 줄 주소
+  - line: Beverly Hills, CA 90210 # 두 번째 줄 주소
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# 빌드 설정
+markdown: kramdown # 마크다운 엔진
+permalink: pretty # URL 형식 설정
+paginate: 10 # 한 페이지에 표시할 포스트 수
+paginate_path: "/page:num/" # 페이지 경로 설정
+
+# 테마 및 플러그인 설정
+theme: minima # 사용 중인 테마 이름
+plugins:
+  - jekyll-feed # RSS 피드 플러그인
+  - jekyll-seo-tag # SEO 태그 플러그인
+  - jekyll-admin # Jekyll Admin 플러그인
+  - jekyll-sitemap # 사이트맵 생성 플러그인
+  - jekyll-paginate # 페이지네이션 플러그인
+
+# 기타 설정
+exclude: # 빌드 시 제외할 파일 또는 폴더
+  - README.md
+  - Gemfile
+  - Gemfile.lock

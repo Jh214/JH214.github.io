@@ -37,3 +37,6 @@ gem "rack", "~> 2.2"
 gem "rack-protection", "~> 2.0"
 
 gem "webrick", "~> 1.7"
+gem "jekyll-sitemap", "~> 1.4"
+
+gem "jekyll-paginate"
