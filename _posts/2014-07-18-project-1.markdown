@@ -10,6 +10,7 @@ alt: image-alt
 project-date: 2024.07 ~ 2024.12
 client: 3명
 category: 백엔드
+link: https://jsl.comon.kr
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
