@@ -1,9 +1,9 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: TeacHub
+subtitle: 초등교사 서비스 플랫폼
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-07 ~ 2024-12
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
