@@ -12,7 +12,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
   - name: 전자계산기기능사
     # pic: 1 # 사진 파일 이름 또는 ID
-    position: 자격증 취득 (2019) # 직책
+    position: 자격증 취득 (2019) # 취득날짜
 
   - name: 운전면허증 1종 보통
     # pic: 2
