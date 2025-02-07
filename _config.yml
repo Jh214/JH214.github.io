@@ -12,7 +12,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
   - name: 전자계산기기능사
     pic: 1 # 사진 파일 이름 또는 ID
-    position: 2019 취득 # 직책
+    position: 자격증 취득 (2019) # 직책
     social:
       - title: twitter # 소셜 네트워크 이름
         url: # URL 주소 (입력 필요)
@@ -21,7 +21,7 @@ people:
 
   - name: 운전면허증 1종 보통
     pic: 2
-    position: 2021.04 취득
+    position: 자격증 취득 (2021.04)
     social:
       - title: twitter
         url: # URL 주소 (입력 필요)
