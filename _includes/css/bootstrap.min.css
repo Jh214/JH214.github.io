@@ -3090,7 +3090,7 @@ box-shadow ease-in-out .15s
 }
 
 .form-control:focus {
-    border-color:#{{ site.data.template.color.secondary }
+    /* border-color:#{{ site.data.template.color.secondary }} */
 }
 
 ;
