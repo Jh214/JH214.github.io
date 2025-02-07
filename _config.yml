@@ -13,33 +13,21 @@ people:
   - name: 전자계산기기능사
     pic: 1 # 사진 파일 이름 또는 ID
     position: 자격증 취득 (2019) # 직책
-    social:
-      - title: twitter # 소셜 네트워크 이름
-        url: # URL 주소 (입력 필요)
-      - title: facebook
-        url: # URL 주소 (입력 필요)
 
   - name: 운전면허증 1종 보통
     pic: 2
     position: 자격증 취득 (2021.04)
-    social:
-      - title: twitter
-        url: # URL 주소 (입력 필요)
-      - title: facebook
-        url: # URL 주소 (입력 필요)
-      - title: linkedin
-        url: # URL 주소 (입력 필요)
 
-  - name: Diana Petersen
-    pic: 3
-    position: Lead Developer
-    social:
-      - title: twitter
-        url: # URL 주소 (입력 필요)
-      - title: facebook
-        url: # URL 주소 (입력 필요)
-      - title: google-plus
-        url: # URL 주소 (입력 필요)
+  # - name: Diana Petersen
+  #   pic: 3
+  #   position: Lead Developer
+  #   social:
+  #     - title: twitter
+  #       url: # URL 주소 (입력 필요)
+  #     - title: facebook
+  #       url: # URL 주소 (입력 필요)
+  #     - title: google-plus
+  #       url: # URL 주소 (입력 필요)
 
 # 소셜 네트워크 링크
 social:
