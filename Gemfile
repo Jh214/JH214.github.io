@@ -41,4 +41,3 @@ gem "jekyll-sitemap", "~> 1.4"
 
 gem "jekyll-paginate"
 
-gem "github-pages", group: :jekyll_plugins
