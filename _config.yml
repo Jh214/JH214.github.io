@@ -56,7 +56,7 @@ theme: minima # 사용 중인 테마 이름
 plugins:
   - jekyll-feed # RSS 피드 플러그인
   - jekyll-seo-tag # SEO 태그 플러그인
-  - jekyll-admin # Jekyll Admin 플러그인
+  # - jekyll-admin # Jekyll Admin 플러그인
   - jekyll-sitemap # 사이트맵 생성 플러그인
   - jekyll-paginate # 페이지네이션 플러그인
 
