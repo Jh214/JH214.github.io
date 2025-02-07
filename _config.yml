@@ -10,24 +10,36 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # 팀 정보
 people:
-  - name: 전자계산기기능사
-    # pic: 1 # 사진 파일 이름 또는 ID
-    position: 자격증 취득 (2019) # 취득날짜
+  - name: Kay Garland
+    pic: 1 # 사진 파일 이름 또는 ID
+    position: Lead Designer # 직책
+    social:
+      - title: twitter # 소셜 네트워크 이름
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
 
-  - name: 운전면허증 1종 보통
-    # pic: 2
-    position: 자격증 취득 (2021.04)
+  - name: Larry Parker
+    pic: 2
+    position: Lead Marketer
+    social:
+      - title: twitter
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
+      - title: linkedin
+        url: # URL 주소 (입력 필요)
 
-  # - name: Diana Petersen
-  #   pic: 3
-  #   position: Lead Developer
-  #   social:
-  #     - title: twitter
-  #       url: # URL 주소 (입력 필요)
-  #     - title: facebook
-  #       url: # URL 주소 (입력 필요)
-  #     - title: google-plus
-  #       url: # URL 주소 (입력 필요)
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: twitter
+        url: # URL 주소 (입력 필요)
+      - title: facebook
+        url: # URL 주소 (입력 필요)
+      - title: google-plus
+        url: # URL 주소 (입력 필요)
 
 # 소셜 네트워크 링크
 social:
@@ -56,7 +68,7 @@ theme: minima # 사용 중인 테마 이름
 plugins:
   - jekyll-feed # RSS 피드 플러그인
   - jekyll-seo-tag # SEO 태그 플러그인
-  # - jekyll-admin # Jekyll Admin 플러그인
+  - jekyll-admin # Jekyll Admin 플러그인
   - jekyll-sitemap # 사이트맵 생성 플러그인
   - jekyll-paginate # 페이지네이션 플러그인
 
