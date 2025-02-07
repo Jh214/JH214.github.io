@@ -685,7 +685,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
+    /* border-color: #{{ site.data.template.color.primary }}; */
     box-shadow: none;
 }
 
