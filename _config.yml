@@ -10,18 +10,18 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # 팀 정보
 people:
-  - name: Kay Garland
+  - name: 전자계산기기능사
     pic: 1 # 사진 파일 이름 또는 ID
-    position: Lead Designer # 직책
+    position: 2019 취득 # 직책
     social:
       - title: twitter # 소셜 네트워크 이름
         url: # URL 주소 (입력 필요)
       - title: facebook
         url: # URL 주소 (입력 필요)
 
-  - name: Larry Parker
+  - name: 운전면허증 1종 보통
     pic: 2
-    position: Lead Marketer
+    position: 2021.04 취득
     social:
       - title: twitter
         url: # URL 주소 (입력 필요)
