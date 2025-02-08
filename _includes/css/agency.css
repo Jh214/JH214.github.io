@@ -772,11 +772,9 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-@media (min-width: 1200px) {
-    .portfolio-modal .modal-body {
-        max-width: 1000px !important; /* 원하는 크기로 설정 */
-        width: 100%; /* 최대한 넓게 설정 */
-    }
+.portfolio-modal .modal-body {
+    max-width: 900px; /* 기본보다 더 넓게 */
+    margin: auto; /* 가운데 정렬 */
 }
 
 .portfolio-modal .modal-body .img-container {
@@ -786,7 +784,7 @@ ul.social-buttons li a:active {
     gap: 10px; /* 이미지 간 간격 */
 }
 
-.portfolio-modal .modal-body .img-container img {
+.modal-body .img-container img {
     width: 48%; /* 한 줄에 2개씩 배치 */
 }
 
