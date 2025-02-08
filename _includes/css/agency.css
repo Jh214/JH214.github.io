@@ -772,20 +772,21 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-body {
-    max-width: 900px; /* 기본보다 더 넓게 */
+.modal-body {
+    max-width: 1000px !important; /* 기본보다 더 넓게 */
+    width: 100%;
     margin: auto; /* 가운데 정렬 */
 }
 
-.portfolio-modal .modal-body .img-container {
+.modal-body .img-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; /* 이미지 간 간격 */
+    gap: 15px; /* 이미지 간 간격 */
 }
 
 .modal-body .img-container img {
-    width: 48%; /* 한 줄에 2개씩 배치 */
+    width: 48%; /* 한 줄에 2개씩 */
 }
 
 .portfolio-modal .modal-content {
@@ -806,6 +807,18 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+}
+
+.item-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 항목 사이 간격 */
+}
+
+.item-details li {
+    display: inline-block;
+    margin-right: 20px; /* 항목 간격 */
+    white-space: nowrap; /* 줄바꿈 방지 */
 }
 
 .portfolio-modal .modal-content p.item-intro {
