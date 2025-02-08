@@ -1,16 +1,22 @@
 ---
 title: BalanceGame
-subtitle: 밸런스 게임 플랫폼
+subtitle: 밸런스 게임, 찬반 투표 등 일상의 재미를 줄 수 있는 플랫폼
 layout: default
 modal-id: 2
 date: 2024-11-01
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: BG1.png
+img2: 
+img3: 
+img4: 
+img5: 
+thumbnail: BG1.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
+position: 백엔드 리드개발
+skill: SpringBoot, React.js, Node.js, SpringSecurity, SpringDataJPA, NginX, WebSocket, Ubuntu, MySql, phpMyAdmin, REST API
 link: https://tech2.comon.kr
+repository: 모종의 이유로 비공개 되어있습니다.
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---

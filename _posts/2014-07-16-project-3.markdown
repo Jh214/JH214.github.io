@@ -1,16 +1,22 @@
 ---
-title: Golden
-subtitle: Website Design
+title: MoaSearch
+subtitle: 다양한 검색엔진 지원 플랫폼
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 2024-07-01
 img: golden.png
+img2: 
+img3: 
+img4: 
+img5: 
 thumbnail: golden-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
-link: https://jsl.comon.kr
+position: 백엔드 리드개발
+skill: SpringBoot, Thymeleaf, Spring Data JPA, SpringSecurity, MySql, BootStrap, Git, Github
+link: 배포되지 않음
+repository: https://github.com/Jh214/commonPjt
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---

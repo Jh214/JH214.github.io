@@ -26,7 +26,10 @@
                                 <strong><span>{{ post.position }}</span></strong>
                             </li>
                             <li>배포 링크 :
-                                <strong><a href="https://jsl.comon.kr">{{ post.link }}</a></strong>
+                                <strong><a href="{{ post.link }}">{{ post.link }}</a></strong>
+                            </li>
+                            <li>저장소 :
+                                <strong><a href="{{ post.repository }}">{{ post.repository }}</a></strong>
                             </li>
                         </ul>
                         <ul class="list-inline item-details">
