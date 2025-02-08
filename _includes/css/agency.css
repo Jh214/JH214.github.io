@@ -772,9 +772,11 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-body {
-    max-width: 900px; /* 기본보다 더 넓게 */
-    margin: auto; /* 가운데 정렬 */
+@media (min-width: 1200px) {
+    .portfolio-modal .modal-body {
+        max-width: 1000px !important; /* 원하는 크기로 설정 */
+        width: 100%; /* 최대한 넓게 설정 */
+    }
 }
 
 .portfolio-modal .modal-body .img-container {
