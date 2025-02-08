@@ -812,6 +812,7 @@ ul.social-buttons li a:active {
 .item-details {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 15px; /* 항목 사이 간격 */
 }
 
