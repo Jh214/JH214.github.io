@@ -820,6 +820,8 @@ ul.social-buttons li a:active {
     display: inline-block;
     margin-right: 20px; /* 항목 간격 */
     white-space: nowrap; /* 줄바꿈 방지 */
+    text-align: center;
+    justify-content: center;
 }
 
 .portfolio-modal .modal-content p.item-intro {
