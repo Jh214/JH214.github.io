@@ -810,6 +810,7 @@ ul.social-buttons li a:active {
 }
 
 .item-details {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
