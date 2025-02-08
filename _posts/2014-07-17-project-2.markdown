@@ -17,6 +17,6 @@ position: 백엔드 리드개발
 skill: SpringBoot, React.js, Node.js, SpringSecurity, SpringDataJPA, NginX, WebSocket, Ubuntu, MySql, phpMyAdmin, REST API
 link: https://tech2.comon.kr
 repository: 모종의 이유로 비공개 되어있습니다.
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: 밸런스 게임
 
 ---
