@@ -772,6 +772,22 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.portfolio-modal .modal-body {
+    max-width: 900px; /* 기본보다 더 넓게 */
+    margin: auto; /* 가운데 정렬 */
+}
+
+.portfolio-modal .modal-body .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* 이미지 간 간격 */
+}
+
+.portfolio-modal .modal-body .img-container img {
+    width: 48%; /* 한 줄에 2개씩 배치 */
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
