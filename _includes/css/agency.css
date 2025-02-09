@@ -276,6 +276,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    width: 100%;
 }
 
 header .intro-text {
