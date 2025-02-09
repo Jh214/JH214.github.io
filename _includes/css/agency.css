@@ -171,39 +171,49 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media (max-width: 464px) {
+    /* 내부 요소들의 최소 너비 제거 */
+    .navbar-fixed-top,
+    .navbar-fixed-top * {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+  
+    /* 네비게이션바 레이아웃을 플렉스 컨테이너로 */
     .navbar-fixed-top {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       display: flex;
-      flex-wrap: wrap;  /* 내부 항목들이 공간 부족 시 줄바꿈되도록 */
+      flex-wrap: wrap;
       justify-content: space-between;
-      box-sizing: border-box;
+      padding: 0 10px;
     }
     
-    /* 내부 컨테이너도 100% 너비로 */
     .navbar-fixed-top .container-fluid {
       width: 100% !important;
       padding: 0 5% !important;
-      box-sizing: border-box;
     }
     
-    /* 로고, 토글, 메뉴 항목 등 최소 너비 제거 */
-    .navbar-fixed-top .navbar-header,
-    .navbar-fixed-top .navbar-brand,
-    .navbar-fixed-top .navbar-toggle,
-    .navbar-fixed-top .navbar-collapse,
-    .navbar-nav > li,
-    .navbar-nav > li > a {
-      flex-shrink: 1;
-      min-width: 0;
+    /* 로고 및 브랜드 조정 */
+    .navbar-fixed-top .navbar-brand {
+      white-space: normal !important;
+      font-size: clamp(14px, 4vw, 18px) !important;
+      padding: 5px 0 !important;
     }
     
-    /* 메뉴 항목 글씨도 줄바꿈 허용 */
-    .navbar-nav > li > a {
-      white-space: normal;
-      font-size: 14px !important;
+    /* 토글 버튼 조정 */
+    .navbar-fixed-top .navbar-toggle {
+      padding: 10px !important;
+      margin: 0 !important;
+      width: auto !important;
+    }
+    
+    /* 메뉴 항목 조정 */
+    .navbar-fixed-top .navbar-nav > li > a {
+      white-space: normal !important;
+      font-size: clamp(12px, 3vw, 14px) !important;
       padding: 5px !important;
     }
   }
