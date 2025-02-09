@@ -170,6 +170,30 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+@media (max-width: 464px) {
+    /* 네비게이션바 자체에 최소 너비 제거 및 100% 적용 */
+    .navbar-fixed-top {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+    
+    /* 내부 컨테이너에 대해서도 같은 적용 */
+    .navbar-fixed-top .container-fluid {
+      width: 100% !important;
+      min-width: 0 !important;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    /* 필요시 내부 요소들의 padding/margin도 조정 */
+    .navbar-header, .navbar-brand, .navbar-toggle, .navbar-nav > li > a {
+      padding-left: 5px;
+      padding-right: 5px;
+      min-width: 0;
+      font-size: 14px;
+    }
+  }
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
