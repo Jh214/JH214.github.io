@@ -271,11 +271,11 @@ fieldset[disabled] .btn-xl.active {
       /* 모바일에서 필요한 설정 */
       padding: 10px 0; /* 예시 */
       background-color: #333; /* 예시 */
-      margin: 0; /* 음수 마진이 있었다면 제거 */
+      margin: 0 !important; /* 음수 마진이 있었다면 제거 */
     }
   
     .navbar-header.page-scroll {
-      margin: 0; /* 혹시 음수 마진이 있었다면 제거 */
+      margin: 0 !important; /* 혹시 음수 마진이 있었다면 제거 */ 
     }
   }
 
@@ -789,11 +789,11 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-/* .modal-body {
+.modal-body {
     max-width: 2000px !important; 
     width: 100%;
     margin: auto; 
-} */
+}
 
 .modal-body .img-container {
     display: flex;
