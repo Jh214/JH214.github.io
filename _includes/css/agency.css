@@ -266,31 +266,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media (max-width: 464px) {
-    .navbar-fixed-top {
-        height: 50px;
-    }
-    .navbar-brand {
-        font-size: 16px;
-    }
-    .navbar-nav > li > a {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 465px) {
-    .navbar-fixed-top {
-        height: 80px;
-    }
-    .navbar-brand {
-        font-size: 24px;
-    }
-    .navbar-nav > li > a {
-        padding: 10px 15px;
-        font-size: 18px;
-    }
-}
 
 header {
     text-align: center;
