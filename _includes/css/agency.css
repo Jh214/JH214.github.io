@@ -789,11 +789,11 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.modal-body {
+/* .modal-body {
     max-width: 2000px !important; /* 기본보다 더 넓게 */
     width: 100%;
     margin: auto; /* 가운데 정렬 */
-}
+} */
 
 .modal-body .img-container {
     display: flex;
