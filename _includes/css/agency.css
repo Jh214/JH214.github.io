@@ -265,19 +265,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media (max-width: 767px) {
-    .navbar-default {
-      /* 모바일에서 필요한 설정 */
-      padding: 10px 0; /* 예시 */
-      background-color: #333; /* 예시 */
-      margin: 0 !important; /* 음수 마진이 있었다면 제거 */
-    }
-  
-    .navbar-header.page-scroll {
-      margin: 0 !important; /* 혹시 음수 마진이 있었다면 제거 */ 
-    }
-  }
-
 header {
     text-align: center;
     color: #fff;
