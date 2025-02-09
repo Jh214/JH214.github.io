@@ -359,11 +359,6 @@ section h3.section-subheading {
     height: 100%;
 }
 
-.portfolio-item img {
-    width: 100%;      /* 부모의 너비에 맞게 */
-    height: 250px;    /* 고정 높이 지정 (원하는 높이로 설정) */
-    object-fit: cover; /* 영역을 꽉 채우면서 잘라냄 */
-  }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
