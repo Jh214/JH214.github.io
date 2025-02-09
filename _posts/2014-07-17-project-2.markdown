@@ -17,7 +17,7 @@ client: Start Bootstrap
 position: 백엔드 리드개발
 skill: SpringBoot, React.js, Node.js, SpringSecurity, SpringDataJPA, NginX, WebSocket, Ubuntu, MySql, phpMyAdmin, REST API
 link: https://tech2.comon.kr
-repository: 모종의 이유로 비공개 되어있습니다.
+repository: 설정파일이 잘못 올라간 이유로 private 처리 되어있습니다.
 description: 밸런스 게임
 
 ---
