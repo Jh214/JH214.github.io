@@ -1,6 +1,6 @@
 ---
 title: BalanceGame
-subtitle: 밸런스 게임 등 일상의 재미를 줄 수 있는 플랫폼
+subtitle: 일상의 재미를 줄 수 있는 커뮤니티 플랫폼
 layout: default
 modal-id: 2
 date: 2024-11-01
