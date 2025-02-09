@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    max-width: 100%;
 }
 
 .navbar-default .navbar-brand {
@@ -280,7 +281,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 100%;
+    max-width: 100%;
 }
 
 header .intro-text {
