@@ -170,58 +170,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-@media (max-width: 464px) {
-    /* 내부 요소들의 최소 너비 제거 */
-    .navbar-fixed-top,
-    .navbar-fixed-top * {
-      min-width: 0 !important;
-      max-width: 100% !important;
-      box-sizing: border-box;
-    }
-  
-    /* 네비게이션바 레이아웃을 플렉스 컨테이너로 */
-    .navbar-fixed-top {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 0 10px;
-    }
-    
-    .navbar-fixed-top .container-fluid {
-      width: 100% !important;
-      padding: 0 5% !important;
-    }
-    
-    /* 로고 및 브랜드 조정 */
-    .navbar-fixed-top .navbar-brand {
-      white-space: normal !important;
-      font-size: clamp(14px, 4vw, 18px) !important;
-      padding: 5px 0 !important;
-    }
-    
-    /* 토글 버튼 조정 */
-    .navbar-fixed-top .navbar-toggle {
-      padding: 10px !important;
-      margin: 0 !important;
-      width: auto !important;
-    }
-    
-    /* 메뉴 항목 조정 */
-    .navbar-fixed-top .navbar-nav > li > a {
-      white-space: normal !important;
-      font-size: clamp(12px, 3vw, 14px) !important;
-      padding: 5px !important;
-    }
-  }
-
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    max-width: 100%;
 }
 
 .navbar-default .navbar-brand {
@@ -326,7 +277,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    max-width: 100%;
 }
 
 header .intro-text {
@@ -336,7 +286,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.bubble-ko }};
+    font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     line-height: 22px;
 }
