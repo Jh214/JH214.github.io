@@ -170,36 +170,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-@media (max-width: 464px) {
-    .navbar-fixed-top .navbar-toggle {
-      width: 100% !important;
-      min-width: 0 !important;
-      /* 가로 여백은 5px 유지하되, 수직 여백을 다시 추가 */
-      padding: 8px 5px !important; 
-      margin-top: 8px !important;
-      margin-bottom: 8px !important;
-    }
-    
-    /* 나머지 요소들은 그대로 */
-    .navbar-fixed-top,
-    .navbar-fixed-top .container-fluid,
-    .navbar-fixed-top .navbar-header,
-    .navbar-fixed-top .navbar-brand,
-    .page-scroll {
-      width: 100% !important;
-      min-width: 0 !important;
-      margin: 0 !important;
-      padding: 0 5px !important;
-    }
-    
-    .navbar-nav > li > a {
-      white-space: normal !important;
-      padding-left: 5px !important;
-      padding-right: 5px !important;
-      font-size: 14px !important;
-    }
-  }
-
 .navbar-default {
     border-color: transparent;
     background-color: #222;
