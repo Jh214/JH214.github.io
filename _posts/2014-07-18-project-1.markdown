@@ -4,12 +4,19 @@ subtitle: 초등교사 서비스 플랫폼
 layout: default
 modal-id: 1
 date: 2024-12-01
-img: TeacHub1.png
-img2: TeacHub2.png
-img3: TeacHub3.png
-img4: TeacHub4.png
-img5: TeacHub5.png
-img6: TeacHub6.png
+# img: TeacHub1.png
+# img2: TeacHub2.png
+# img3: TeacHub3.png
+# img4: TeacHub4.png
+# img5: TeacHub5.png
+# img6: TeacHub6.png
+images:
+  - TeacHub1.png
+  - TeacHub2.png
+  - TeacHub3.png
+  - TeacHub4.png
+  - TeacHub5.png
+  - TeacHub6.png
 thumbnail: TeacHub1.png
 alt: image-alt
 project-date: 2024.07 ~ 2024.12

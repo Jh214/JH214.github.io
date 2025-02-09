@@ -4,10 +4,15 @@ subtitle: 다양한 검색엔진 지원 플랫폼
 layout: default
 modal-id: 3
 date: 2024-07-01
-img: Moa1.png
-img2: Moa2.png
-img3: Moa3.png
-img4: Moa4.png
+# img: Moa1.png
+# img2: Moa2.png
+# img3: Moa3.png
+# img4: Moa4.png
+images:
+  - Moa1.png
+  - Moa2.png
+  - Moa3.png
+  - Moa4.png
 thumbnail: Moa1.png
 alt: image-alt
 project-date: 2024.06.23 ~ 2024.06.25

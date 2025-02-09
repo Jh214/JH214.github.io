@@ -4,12 +4,19 @@ subtitle: 밸런스 게임 등 일상의 재미를 줄 수 있는 플랫폼
 layout: default
 modal-id: 2
 date: 2024-11-01
-img: BG1.png
-img2: BG2.png
-img3: BG3.png
-img4: BG4.png
-img5: BG5.png
-img6: BG6.png
+# img: BG1.png
+# img2: BG2.png
+# img3: BG3.png
+# img4: BG4.png
+# img5: BG5.png
+# img6: BG6.png
+images:
+  - BG1.png
+  - BG2.png
+  - BG3.png
+  - BG4.png
+  - BG5.png
+  - BG6.png
 thumbnail: BG1.png
 alt: image-alt
 project-date: 2024.09 ~ 2024.11

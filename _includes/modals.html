@@ -46,6 +46,11 @@
 
                         <!-- 이미지들을 감싸는 div 추가 -->
                         <div class="img-container">
+                            {% for image in post.images %}
+                              <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endfor %}
+                          </div>
+                        <!-- <div class="img-container">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered"
                                 alt="{{ post.alt }}">
                             <img src="img/portfolio/{{ post.img2 }}" class="img-responsive img-centered"
@@ -58,7 +63,7 @@
                                 alt="{{ post.alt }}">
                             <img src="img/portfolio/{{ post.img6 }}" class="img-responsive img-centered"
                                 alt="{{ post.alt }}">
-                        </div>
+                        </div> -->
 
                         <button type="button" class="btn btn-default" data-dismiss="modal">
                             <i class="fa fa-times"></i> Close

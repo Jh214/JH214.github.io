@@ -4,12 +4,19 @@ subtitle: 학생들끼리의 스터디 개설 또는 참여 플랫폼
 layout: default
 modal-id: 4
 date: 2024-06-01
-img: Learning1.png
-img2: Learning2.png
-img3: Learning3.png
-img4: Learning4.png
-img5: Learning5.png
-img5: Learning6.png
+# img: Learning1.png
+# img2: Learning2.png
+# img3: Learning3.png
+# img4: Learning4.png
+# img5: Learning5.png
+# img5: Learning6.png
+images:
+  - Learning1.png
+  - Learning2.png
+  - Learning3.png
+  - Learning4.png
+  - Learning5.png
+  - Learning6.png
 thumbnail: Learning1.png
 alt: image-alt
 project-date: 2024.3 ~ 2024.06
