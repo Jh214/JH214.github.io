@@ -781,10 +781,15 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.modal-body {
+/* .modal-body {
     max-width: 2000px !important; 
     width: 100%;
     margin: auto; 
+} */
+@media (max-width: 767px) {
+    .modal-body {
+        max-width: 100% !important;
+    }
 }
 
 .modal-body .img-container {
