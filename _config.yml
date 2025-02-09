@@ -4,7 +4,7 @@ url: https://jh214.github.io # 자신의 GitHub Pages 주소로 변경하세요.
 baseurl: ""
 
 # 사이트 기본 정보
-title: Awesome Title # 사이트 제목
+title: 심재휘의 포트폴리오 # 사이트 제목
 email: your-email@domain.com # 사이트 이메일 주소
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." # 사이트 설명
 
