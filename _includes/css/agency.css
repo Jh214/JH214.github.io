@@ -292,7 +292,6 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    white-space: nowrap;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
