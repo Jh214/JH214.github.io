@@ -306,6 +306,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        background-color: #2222226c;
     }
 
     header .intro-text .intro-lead-in {
