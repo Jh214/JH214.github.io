@@ -2,7 +2,7 @@
 title: TeacHub
 subtitle: 초등교사 서비스 플랫폼
 layout: default
-modal-id: 1
+modal-id: 2
 date: 2024-12-01
 # img: TeacHub1.png
 # img2: TeacHub2.png

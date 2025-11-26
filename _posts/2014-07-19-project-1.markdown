@@ -3,7 +3,7 @@ title: NOVER
 subtitle: 개인 쇼핑몰
 layout: default
 modal-id: 1
-date: 2024-12-01
+date: 2025-09-01
 images:
   - NOVER1.png
   - NOVER2.png
