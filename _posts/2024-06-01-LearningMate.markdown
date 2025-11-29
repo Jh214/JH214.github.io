@@ -2,7 +2,7 @@
 title: LearningMate
 subtitle: 학생들끼리의 스터디 개설 또는 참여 플랫폼
 layout: default
-modal-id: 5
+modal_id: 5
 date: 2024-06-01
 # img: Learning1.png
 # img2: Learning2.png
