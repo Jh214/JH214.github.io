@@ -364,6 +364,13 @@ section h3.section-subheading {
     height: 100%;
 }
 
+#portfolio .portfolio-item img {
+    width: 100%;
+    height: 240px; /* 원하는 값 */
+    object-fit: cover;
+    object-position: center;
+}
+
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
