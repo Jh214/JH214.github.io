@@ -21,7 +21,7 @@ images:
   - NOVER7.png
 thumbnail: NOVER1.png
 alt: image-alt
-project-date: 2025.09 ~
+project-date: 2025.09 ~ 2025.11
 client: 3명
 position: 백엔드 리드개발
 list: 회원 CRUD, 카카오 로그인, 상품 CRUD, 상품 카테고리 CRUD, 연관상품 설정 기능, 장바구니 CRUD, 쿠폰 기능, 배송비 정책, 결제(PortOne V2) 연동, 비밀번호 찾기(이메일 임시 비밀번호 발급), 메인 노출 상품 관리, 프로모션 정책 기능, 메인 헤더 텍스트 CRUD, 배너 CRUD, 관리자 대시보드, 방문자 카운팅(UV), 게시판 CRUD(공지사항·이벤트·문의사항), 리뷰 CRUD, 실시간 채팅(WebSocket)
