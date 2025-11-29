@@ -358,18 +358,18 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-/* #portfolio .portfolio-item {
+#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
     height: 100%;
-} */
+}
 
 /* 🔥 모든 프로젝트 썸네일 그리드 균일화 */
-#portfolio .portfolio-item {
+/* #portfolio .portfolio-item {
     display: flex;
     flex-direction: column;
-    height: 380px; /* 카드 전체 높이 통일 */
-}
+    height: 380px;
+} */
 
 #portfolio .portfolio-item .portfolio-link {
     flex: 1; /* 이미지 영역 가변 */
@@ -379,15 +379,9 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-link img {
     width: 100%;
-    height: 240px; /* 썸네일 높이 통일 */
+    height: 200px; /* 썸네일 높이 통일 */
     object-fit: cover;
     object-position: center;
-}
-
-/* 캡션 영역 위치 고정 */
-#portfolio .portfolio-item .portfolio-caption {
-    flex-shrink: 0;
-    padding: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
