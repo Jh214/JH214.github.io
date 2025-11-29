@@ -2,7 +2,7 @@
 title: BalanceGame
 subtitle: 일상의 재미를 줄 수 있는 커뮤니티 플랫폼
 layout: default
-modal_id: 3
+modal-id: 3
 date: 2024-11-01
 # img: BG1.png
 # img2: BG2.png

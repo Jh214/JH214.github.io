@@ -2,7 +2,7 @@
 title: NOVER
 subtitle: 개인 쇼핑몰
 layout: default
-modal_id: 1
+modal-=id: 1
 date: 2025-09-01
 # img: NOVER1.png
 # img2: NOVER2.png

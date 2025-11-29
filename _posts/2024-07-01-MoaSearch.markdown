@@ -2,7 +2,7 @@
 title: MoaSearch
 subtitle: 다양한 검색엔진 지원 플랫폼
 layout: default
-modal_id: 4
+modal-id: 4
 date: 2024-07-01
 # img: Moa1.png
 # img2: Moa2.png

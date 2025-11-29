@@ -364,13 +364,6 @@ section h3.section-subheading {
     height: 100%;
 }
 
-/* 🔥 모든 프로젝트 썸네일 그리드 균일화 */
-/* #portfolio .portfolio-item {
-    display: flex;
-    flex-direction: column;
-    height: 380px;
-} */
-
 #portfolio .portfolio-item .portfolio-link {
     flex: 1; /* 이미지 영역 가변 */
     display: flex;
