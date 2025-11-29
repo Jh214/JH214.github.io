@@ -4,6 +4,13 @@ subtitle: 개인 쇼핑몰
 layout: default
 modal-id: 1
 date: 2025-09-01
+# img: NOVER1.png
+# img2: NOVER2.png
+# img3: NOVER3.png
+# img4: NOVER4.png
+# img5: NOVER5.png
+# img6: NOVER6.png
+# img7: NOVER7.png
 images:
   - NOVER1.png
   - NOVER2.png
