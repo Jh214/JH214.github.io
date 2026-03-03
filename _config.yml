@@ -10,11 +10,14 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # 팀 정보
 people:
-  - name: 운전면허증 1종 보통
+  - name: 운전면허증 2종 보통
     position: 2021.04 취득 # 취득 날짜
 
-  - name: 전자계산기기능사
-    position: 2019 취득
+  - name: GTQ 1급
+    position: ??? 취득
+
+  - name: 그래픽??? 운용 기능사
+    position: ??? 취득
 
   # - name: Diana Petersen
   #   pic: 3
